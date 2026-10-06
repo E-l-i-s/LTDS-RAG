@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Vector DB (generated, not committed)
+**/vector_db/
+
+# Generated data files
+**/data.pdf
+
+# LLM model weights (too large for git)
+**/models/*.gguf
+**/models/*.bin
+**/models/*.safetensors
+
+# Environment / secrets
+.env
+!.env.example
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
